@@ -1,3 +1,7 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Garde les variables posees dans le dashboard Cloudflare (ALLOWED_DOMAINS,
+# GITHUB_CLIENT_ID) a chaque deploiement declenche par un push.
+keep_vars = true
